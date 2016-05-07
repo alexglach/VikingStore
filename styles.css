@@ -3,6 +3,7 @@ body {
 }
 
 
+
 .navbar {
   height: 70px;
   border-bottom: 1px solid black;
@@ -28,6 +29,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
+  padding-bottom: 5px;
 
 }
 
@@ -37,4 +39,42 @@ body {
   color: #444;
   margin-right: 60px;
   line-height: 70px;
+}
+
+.top-image h1{
+  font-size: 50px;
+  text-align: center;
+  line-height: 300px;
+  opacity: 1;
+}
+
+.top-image {
+  height: 250px;
+  background-image: url("https://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg");
+
+}
+
+.middle-bar {
+  background-color: #111;
+  height: 100px;
+}
+
+.middle-bar h1{
+  font-size: 30px;
+  color: #ddd;
+  text-align: center;
+  line-height: 100px;
+}
+
+.middle-bar-2 {
+  height: 40px;
+}
+
+.middle-bar-2 h1{
+  font-size: 20px;
+  font-style: italic;
+  color: #999;
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid black;
 }
