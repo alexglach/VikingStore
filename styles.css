@@ -51,7 +51,6 @@ body {
 .top-image {
   height: 250px;
   background-image: url("https://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg");
-
 }
 
 .middle-bar {
@@ -82,15 +81,18 @@ body {
 
 .all-items {
   width: 80%;
-  margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 30px;
+
 }
 
 .item-container {
   width: 300px;
   height: 350px;
-  
+  display: inline-block;
+  margin: 0px 10px;
+  margin-bottom: 20px;
 }
 
 .item-image {
@@ -123,8 +125,8 @@ body {
 
 .item-title h1 {
   text-align: center;
-  color: #ddd;
-  font-size: 24;
+  color: white;
+  font-size: 24px;
   line-height: 40px;
 }
 
