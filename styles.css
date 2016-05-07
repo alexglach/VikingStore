@@ -156,10 +156,46 @@ body {
 
 .footer {
   height: 200px;
-  background-color: ;
+  background-color: #333;
 }
 
+.footer h1 {
+  padding-top: 30px;
+  color: orange;
+  font-size: 18px;
+  text-align: center;
+}
 
+.phone{
+  width: 220px;
+  margin: auto;
+}
 
+.footer .phone h1{
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  margin-left: 15px;
+}
 
+.footer img {
+  object-fit: contain;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer .email {
+  width: 220px;
+  margin: auto;
+}
+
+.footer .email h1{
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  margin-left: 15px;
+
+}
 
