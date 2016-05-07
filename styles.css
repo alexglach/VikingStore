@@ -1,0 +1,40 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+
+.navbar {
+  height: 70px;
+  border-bottom: 1px solid black;
+
+}
+
+.navbar h1{
+  font-size: 24px;
+  color: #333;
+  display: inline-block;
+  float:left;
+  line-height: 70px;
+  margin-left: 30px;
+}
+
+.navbar .nav-cart {
+  float: right;
+}
+
+.navbar .nav-cart img{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+
+}
+
+.navbar .nav-cart h2{
+  display: inline-block;
+  font-size: 20px;
+  color: #444;
+  margin-right: 60px;
+  line-height: 70px;
+}
