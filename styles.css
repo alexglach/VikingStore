@@ -54,13 +54,13 @@ body {
 }
 
 .middle-bar {
-  background-color: #111;
+  background-color: #333;
   height: 100px;
 }
 
 .middle-bar h1{
   font-size: 30px;
-  color: #ddd;
+  color: #eee;
   text-align: center;
   line-height: 100px;
 }
@@ -120,12 +120,12 @@ body {
 .item-title {
   width: 300px;
   height: 40px;
-  background-color: #111;
+  background-color: #333;
 }
 
 .item-title h1 {
   text-align: center;
-  color: white;
+  color: #eee;
   font-size: 24px;
   line-height: 40px;
 }
@@ -135,7 +135,7 @@ body {
   width: 300px;
   margin-top: -3px;
   height: 40px;
-  background-color: #111;
+  background-color: #333;
 }
 
 .item-bottom-bar .add-to-cart {
@@ -144,12 +144,20 @@ body {
   margin: 7px 110px;
 }
 
+.pagination {
+  width: 400px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
 
+.pagination a{
+  margin: 10px;
+}
 
-
-
-
-
+.footer {
+  height: 200px;
+  background-color: ;
+}
 
 
 
